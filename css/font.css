@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: "Uncage";
-    src: url("../fonts/UNCAGE-Regular.ttf") format("truetype");
+    font-family: "FatFace";
+    src: url("../fonts/OhnoFatface-18PtCondensed.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }

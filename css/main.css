@@ -13,7 +13,7 @@
     --white : #f7f1f5;
     --transparent : #ffffff00;
     --kranto : "Kranto", sans-serif;
-    --uncage : "Uncage", sans-serif;
+    --fatFace : "FatFace", sans-serif;
 }
 
 #body {
@@ -22,7 +22,7 @@
 }
 
 .h1 {
-    font-family: var(--uncage);
+    font-family: var(--fatFace);
     font-size: 3rem;
     text-align: center;
     color: var(--white);
@@ -149,7 +149,7 @@
 .comTitle {
     color: var(--white);
     margin: 1rem;
-    font: 400 3rem "uncage", sans-serif;
+    font: 400 3rem "FatFace", sans-serif;
     margin-left: 3rem;
 }
 
