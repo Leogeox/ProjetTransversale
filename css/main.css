@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black : #000000;
+    --darkBlue : #020A24;
+    --blue : #0338e6;
+    --orange : #f58928;
+    --pink : #fb84d6;
+    --white : #f7f1f5;
+    --transparent : #ffffff00;
+    --kranto : "Kranto", sans-serif;
+    --uncage : "Uncage", sans-serif;
+}
+
+#body {
+    background-color: var(--darkBlue);
+    width: 100%;
+}
+
+.h1 {
+    font-family: var(--uncage);
+    font-size: 3rem;
+    text-align: center;
+    color: var(--white);
+    margin-top: 2rem;
+    transition: 0.5s;
+}
+
+.posterContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.posters {
+    cursor: pointer;
+    margin: 3rem;
+    width: 20%;
+    transition: 0.5s;
+}
+
+.posters:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+
+#blindbtn  {
+    position: fixed;
+    right: 2.5rem;
+    width: 3%;
+    top: 16.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+#blindbtn {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.icons {
+    width: 60%;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img {
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: -1rem;
+}
+
+.planning {
+    width: 80%;
+    margin: 5rem auto;
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.planning:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.btnComContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.p {
+    text-align: start;
+    color: var(--white);
+    margin: 11rem;
+    font: 400 1.5rem var(--kranto);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: 0.5s;
+}
+
+.btnCom {
+    text-align: center;
+    background-color: #0338e6;
+    padding: 1rem;
+    font: 400 1.8rem "Kranto", sans-serif;
+    color: var(--white);
+    margin-top: 3rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.5s
+}
+
+.btnCom:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.comContainer {
+    text-align: start;
+}
+
+.decoCom {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    margin-left: 12rem;
+}
+
+.eurockeene {
+    width: 400px;
+    height: 200px;
+    margin: 1rem;
+    margin-top: -1.5rem;
+    margin-left: -2rem;
+}
+
+.comTitle {
+    color: var(--white);
+    margin: 1rem;
+    font: 400 3rem "uncage", sans-serif;
+    margin-left: 3rem;
+}
+
+.comP {
+    color: var(--white);
+    margin: 8rem;
+    font: 400 1.8rem "Kranto", sans-serif;
+    margin-top: -2rem;
+}

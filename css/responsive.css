@@ -1,0 +1,2782 @@
+@media screen and (min-width: 250px) and (max-width: 343px) {
+
+    .headerBackground {
+        height: 280px;
+    }
+
+    .imgActivity {
+        width: 26%;
+        margin: 1rem;
+    }
+
+    .closeBtn {
+        height: 5%;
+    }
+
+    .title {
+        transition: 0.5s;
+        width: 200px;
+    }
+
+    .h1Accueil {
+        width: 40%;
+        top: 14%;
+        left: 65%;
+        font-size: 0.8rem;
+    }
+
+    .logoAcceuil {
+        width: 100px;
+        left: 0%;
+        top: 10%;
+    }
+
+    .illustration {
+        width: 90%;
+        transition: 0.5s;
+    }
+
+    .btns {
+        top: 45%;
+        left: 60%;
+    }
+
+    .activity {
+        width: 30%;
+        font: 400 1.2rem "Kranto", sans-serif;
+        padding: 0.3rem;
+        margin: 0.5rem;
+    }
+
+    .btnCom {
+        font: 400 0.5rem "Kranto", sans-serif;
+        padding: 0.4rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .img {
+        margin-top: -2rem;
+    }
+    
+    .navHeader ul {
+        margin-left: 0rem;
+    }
+
+    .navHeader ul li {
+        margin-top: 1rem;
+    }
+
+    .navHeader a {
+        font-size: 0.5rem;
+        margin: -0.5rem;
+        padding: 0.5rem;
+    }
+
+    .logoHeader {
+        margin-left: 0.5rem;
+        width: 50px;
+        height: 70px;
+    }
+
+    #blindbtn {
+        width: 7%;
+        right: 2rem;
+    }
+
+    .sidenavOpen {
+        width: 13%;
+        height: 22%;
+        top: 19rem;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+    }
+
+    .btnsPosition {
+        font-size: 0.6rem;
+        padding: 0.8rem;
+        height: 8px;
+        margin: 3.5rem;
+        margin-left: -3rem;
+        margin-top: -10rem;
+    }
+
+    .btnActivity {
+        font-size: 0.5rem;
+        padding: 0.4rem;
+        margin: 1.4rem;
+        margin-top: -5rem;
+    }
+
+    .activityContainer p {
+        font-size: 0.7rem;
+        margin: 2rem;
+    }
+
+    .h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .gifts {
+        margin: 0.5rem;
+        width: 25%;
+    }
+
+    .h2 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .ticket {
+        width: 80%;
+        height: 10.5rem;
+        margin: 1.8rem;
+    }
+
+    .price {
+        font-size: 2rem;
+        margin: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .date {
+        font-size: 0.5rem;
+    }
+
+    .grp {
+        font-size: 0.7rem;
+        margin-top: -1rem;
+    }
+
+    .toBook
+    {
+        font-size: 1rem;
+        height: 1.5rem;
+        transition: 0.5s;
+        margin-top: 0.8rem;
+        width: 70%;
+    }
+
+    .details {
+        margin-top: 1.8rem;
+        font-size: 0.5rem;
+    }
+
+    .posters {
+        margin: 0.8rem;
+    }
+
+    #form {
+        width: 80%;
+        padding: 2rem;
+        margin: 2rem;
+        height: 19rem;
+    }
+
+    .submit {
+        width: 45%;
+    }
+
+    .socials {
+        margin-top: 0rem;
+    }
+
+    .iconsFooter {
+        width: 10%;
+    }
+
+    .navFooter {
+        margin-right: 0rem;
+    }
+
+    .navFooter ul li {
+        margin-left: 0.5rem;
+    }
+
+    .navFooter a {
+        font-size: 3%;
+        margin: 0rem;
+    }
+
+    .swiper {
+        margin-bottom: 2rem;
+    }
+
+    .swiper-slide p {
+        font-size: 0.65rem;
+        margin: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .swiper-slide h4 {
+        font-size: 0.9rem;
+        margin-top: 6rem;
+        margin-left: -3.8rem;
+    }
+
+    .swiper-slide img {
+        width: 70px;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 54rem;
+        margin-top: -4rem;
+    }
+
+    .blind .title {
+        transition: 0.5s;
+        width: 250px;
+    }
+
+    .blind .posters {
+        margin: 0.8rem;
+    }
+
+    .blind .headerBackground {
+        height: 450px;
+    }
+
+    .blind .logoAcceuil {
+        width: 150px;
+        transition: 0.5s;
+        top: 10%;
+        left: -4%;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+
+    .blind .btnCom {
+        transition: 0.5s;
+        font: 400 1rem "Kranto", sans-serif;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: -1rem;
+        transition: 0.5s;
+    }
+
+    .blind .navHeader  ul li {
+        margin-left: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        padding: 0rem;
+        font-size: 0.8rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 40px;
+        height: 60px;
+    }
+    
+    .blind #blindbtn {
+        width: 8%;
+        transition: 0.5s;
+    }
+
+    .blind .h1 {
+        font-size: 3rem;
+        transition: 0.5s;
+    }
+
+    .blind .h1Accueil {
+        font-size: 1.1rem;
+        transition: 0.5s;
+        left: 74%;
+        top: 18%;
+    }
+
+    .blind .btns {
+        top: 53%;
+        left: 71%;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 0.8rem;
+        height: 30px;
+        padding: 0.2rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+
+    .blind .navFooter ul li {
+        margin-left: 0.5rem;
+    }
+    
+    .blind .navFooter a {
+        font-size: 8%;
+        padding: 0;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 12%;
+        transition: 0.5s;
+    }
+
+    .blind .ticket {
+        margin: 0.3rem;
+        height: 10rem;
+        width: 80%;
+        margin-top: 3rem;
+        transition: 0.5s;
+    }
+    
+    .blind .date {
+        font-size: 0.55rem;
+        transition: 0.5s;
+        margin: 0.2rem;
+    }
+    
+    .blind .grp {
+        font-size: 0.85rem;
+        transition: 0.5s;
+    }
+    
+    .blind .price {
+        font-size: 2.5rem;
+        margin-top: -0.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .details {
+        font-size: 0.6rem;
+        margin-top: 1rem;
+    }
+    
+    .blind .toBook {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        height: 1.6rem;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 342px) and (max-width: 477px) {
+
+    .blind .title {
+        transition: 0.5s;
+        width: 330px;
+    }
+
+    .title {
+        transition: 0.5s;
+        width: 250px;
+    }
+
+    .h1Accueil {
+        width: 50%;
+        top: 21%;
+        left: 70%;
+        font-size: 1.5rem;
+        width: 55%;
+    }
+
+    .logoAcceuil {
+        width: 150px;
+        left: -2%;
+        top: 15%;
+    }
+
+    .btns {
+        top: 53%;
+        left: 55%;
+    }
+
+    .activity {
+        width: 25%;
+        font: 400 1.5rem "Kranto", sans-serif;
+        padding: 0.3rem;
+        margin: 1rem;
+    }
+
+    .btnCom {
+        font: 400 0.8rem "Kranto", sans-serif;
+        padding: 0.5rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .img {
+        margin-top: -1rem;
+    }
+
+    .ticket {
+        width: 75%;
+        height: 12.5rem;
+        margin: 1.8rem;
+    }
+
+    .price {
+        font-size: 3rem;
+        margin: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .date {
+        font-size: 0.6rem;
+        margin: 0.5rem;
+    }
+
+    .grp {
+        font-size: 0.6rem;
+        margin-top: -1rem;
+    }
+
+    .toBook {
+        font-size: 1rem;
+        height: 2rem;
+        transition: 0.5s;
+        margin-top: 1.5rem;
+        width: 65%;
+    }
+
+    .details {
+        margin: 0.5rem;
+        margin-top: 2rem;
+        font-size: 0.7rem;
+    }
+
+    .headerBackground {
+        height: 550px;
+    }
+    
+    .navHeader ul {
+        margin-left: 1rem;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.5rem;
+    }
+
+    .navHeader a {
+        font-size: 0.8rem;
+        margin: -0.8rem;
+    }
+
+    .logoHeader {
+        margin-left: 0.5rem;
+        width: 70px;
+        height: 90px;
+    }
+
+    #blindbtn {
+        width: 7%;
+        right: 2rem;
+    }
+
+    .sidenavOpen {
+        width: 13%;
+        height: 22%;
+        top: 19rem;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+    }
+
+    .btnsPosition {
+        font-size: 0.8rem;
+        padding: 1rem;
+        height: 35px;
+        margin: 3rem;
+        margin-left: -2.5rem;
+        margin-top: -8.5rem;
+    }
+
+    .btnActivity {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+        margin: 1.5rem;
+        margin-top: -5rem;
+    }
+
+    .activityContainer p {
+        font-size: 1rem;
+        margin: 2rem;
+    }
+
+    .h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .gifts {
+        margin: 0.5rem;
+        width: 25%;
+    }
+
+    .posters {
+        margin: 1rem;
+        width: 23%;
+    }
+
+    #form {
+        width: 80%;
+        padding: 2rem;
+        margin: 2rem;
+        height: 20rem;
+    }
+
+    .submit {
+        width: 45%;
+    }
+
+    .socials {
+        margin-top: 0rem;
+    }
+
+    .iconsFooter {
+        width: 10%;
+    }
+
+    .navFooter {
+        margin-right: 0.5rem;
+    }
+
+    .navFooter a {
+        font-size: 45%;
+        margin: 0rem;
+    }
+
+    .swiper {
+        margin-bottom: 2rem;
+    }
+
+    .swiper-slide p {
+        font-size: 0.7rem;
+        margin: 1rem;
+        margin-top: 1rem;
+    }
+
+    .swiper-slide h4 {
+        font-size: 1rem;
+        margin-top: 7rem;
+        margin-left: -4.5rem;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 54rem;
+        margin-top: -4rem;
+    }
+
+    .blind .posters {
+        margin: 1rem;
+        width: 26%;
+        margin-top: -9rem;
+    }
+
+    .blind .logoAcceuil {
+        width: 200px;
+        transition: 0.5s;
+        top: 15%;
+        left: -4%;
+    }
+
+    .blind .btnCom {
+        transition: 0.5s;
+        font: 400 1rem"Kranto", sans-serif;
+    }
+
+    .blind .headerBackground {
+        height: 550px;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: -1rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 0.9rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 55px;
+        height: 75px;
+    }
+    
+    .blind #blindbtn {
+        width: 8%;
+        transition: 0.5s;
+    }
+
+    .blind h1 {
+        font-size: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .h1Accueil {
+        font-size: 1.8rem;
+        transition: 0.5s;
+        left: 74%;
+        top: 25%;
+    }
+
+    .blind .btns {
+        top: 60%;
+        left: 63%;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 1rem;
+        height: 35px;
+        padding: 0.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+
+    .blind .navFooter ul li {
+        margin-left: 0.5rem;
+    }
+    
+    .blind .navFooter a {
+        font-size: 50%;
+        padding: 0;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 11%;
+        transition: 0.5s;
+    }
+
+    .blind .ticket {
+        margin: 0.3rem;
+        height: 12rem;
+        margin-top: 3rem;
+        width: 18rem;
+        transition: 0.5s;
+    }
+    
+    .blind .date {
+        font-size: 0.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .grp {
+        font-size: 0.9rem;
+        transition: 0.5s;
+    }
+    
+    .blind .price {
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .toBook {
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        height: 2rem;
+        transition: 0.5s;
+    }
+
+    .blind .details {
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 659px) {
+
+    .headerBackground {
+        height: 550px;
+    }
+
+    .blind .title {
+        transition: 0.5s;
+        width: 450px;
+    }
+
+    .illustration {
+        width: 80%;
+        transition: 0.5s;
+    }
+
+    .title {
+        transition: 0.5s;
+        width: 350px;
+    }
+
+    .activity {
+        width: 25%;
+        margin: 1rem;
+    }
+
+    .h1Accueil {
+        width: 45%;
+        top: 25%;
+        left: 73%;
+        font-size: 1.5rem;
+    }
+
+    .logoAcceuil {
+        width: 250px;
+        left: 0%;
+        top: 15%;
+    }
+
+    .btns {
+        top: 42%;
+        left: 50%;
+    }
+
+    .btnCom {
+        font: 400 1.1rem "Kranto", sans-serif;
+        padding: 0.5rem;
+    }
+    
+    .navHeader ul {
+        margin-left: -3rem;
+    }
+
+    .img {
+        margin-top: 1rem;
+    }
+    
+    .navHeader ul {
+        margin-left: 0.5rem;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.5rem;
+    }
+
+    .navHeader a {
+        font-size: 1rem;
+        margin: 0.1rem;
+    }
+
+    #blindbtn {
+        width: 7%;
+        right: 2rem;
+    }
+
+    .h3 {
+        margin-bottom: 0.5rem ;
+    }
+
+    .gifts {
+        margin: 1rem;
+        width: 25%;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .btnsPosition {
+        font-size: 1rem;
+        padding: 1rem;
+        height: 45px;
+        margin: 0.5rem;
+    }
+
+    .btnActivity {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+        margin: 2.3rem;
+        margin-top: -5rem;
+    }
+
+    .activityContainer p {
+        font-size: 1rem;
+        margin: 4rem;
+    }
+
+    .ticket {
+        width: 70%;
+        height: 10.5rem;
+        margin: 1.8rem;
+    }
+
+    .price {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+    .date {
+        font-size: 0.6rem;
+        margin: 0.3rem;
+    }
+
+    .grp {
+        font-size: 0.8rem;
+        margin-top: -1rem;
+    }
+
+    .toBook
+    {
+        font-size: 0.8rem;
+        height: 1.5rem;
+        transition: 0.5s;
+        margin-top: 0.9rem;
+        width: 50%;
+    }
+
+    .details {
+        margin-top: 1.5rem;
+        font-size: 0.5rem;
+    }
+
+    .blind .ticket {
+        width: 80%;
+        height: 14.5rem;
+        margin: 1.8rem;
+    }
+
+    .blind .price {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+
+    .blind .date {
+        font-size: 1rem;
+    }
+
+    .blind .grp {
+        font-size: 0.9rem;
+        margin-top: -1rem;
+    }
+
+    .blind .toBook
+    {
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        height: 2.5rem;
+        transition: 0.5s;
+        width: 45%;
+    }
+
+    .blind .details {
+        margin-top: 2.5rem;
+        font-size: 0.8rem;
+    }
+
+    .posters {
+        margin: 1.5rem;
+        width: 23%;
+    }
+
+    #form {
+        width: 70%;
+        margin: 2rem;
+        padding: 3rem;
+        height: 22rem;
+    }
+
+    .submit {
+        width: 40%;
+    }
+
+    .iconsFooter {
+        width: 10%;
+    }
+
+    .navFooter a {
+        font-size: 75%;
+        margin: 0rem;
+    }
+
+    .swiper-slide p {
+        font-size: 0.9rem;
+        margin: 2rem;
+        margin-top: 1rem;
+    }
+
+    .swiper-slide h4 {
+        font-size: 1rem;
+        margin-top: 7rem;
+        margin-left: -5em;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 54rem;
+        margin-top: -4rem;
+    }
+
+    .blind .headerBackground {
+        height: 600px;
+    }
+
+    .blind .logoAcceuil {
+        width: 300px;
+        transition: 0.5s;
+        top: 17%;
+        left: -3%;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: -1rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.05rem;
+        transition: 0.5s;
+    }
+
+    .blind .btnCom {
+        transition: 0.5s;
+        font: 400 1.5rem "Kranto", sans-serif;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 90px;
+        height: 110px;
+    }
+    
+    .blind #blindbtn {
+        width: 8%;
+        transition: 0.5s;
+    }
+
+    .blind h1 {
+        font-size: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .h1Accueil {
+        font-size: 2rem;
+        transition: 0.5s;
+        left: 78%;
+        top: 30%;
+    }
+
+    .blind .btns {
+        top: 50%;
+        left: 55%;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 1.3rem;
+        height: 50px;
+        padding: 0.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+
+    .blind .navFooter ul li {
+        margin-left: 0.5rem;
+    }
+    
+    .blind .navFooter a {
+        font-size: 78%;
+        padding: 0;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 11%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 774px) {
+
+    .headerBackground {
+        height: 650px;
+    }
+
+    .illustration {
+        cursor: pointer;
+        width: 70%;
+        transition: 0.5s;
+    }
+
+    .navHeader ul {
+        margin-left: 8rem;
+    }
+
+    .blind .title {
+        transition: 0.5s;
+        width: 650px;
+    }
+
+    .title {
+        transition: 0.5s;
+        width: 550px;
+    }
+
+    .h1Accueil {
+        width: 50%;
+        top: 32%;
+        left: 72%;
+        font-size: 2.1rem;
+    }
+
+    .logoAcceuil {
+        width: 300px;
+        position: absolute;
+        left: 3%;
+        top: 20%;
+    }
+
+    .btns {
+        top: 50%;
+        left: 50%;
+    }
+
+    .activity {
+        width: 18%;
+    }
+
+    .btnCom {
+        font: 400 1.1rem "Kranto", sans-serif;
+        padding: 0.5rem;
+    }
+
+    .img {
+        margin-top: -2rem;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.4rem;
+    }
+
+    .navHeader a {
+        font-size: 1.2rem;
+        margin: 0.3rem;
+    }
+
+    #blindbtn {
+        width: 5.3%;
+        right: 2.2rem;
+    }
+
+    .sidenavOpen {
+        width: 10%;
+        height: 26%;
+        top: 19rem;
+    }
+
+    .h1 {
+        font-size: 2.2rem;
+    }
+
+    .btnActivity {
+        font-size: 0.8rem;
+        padding: 0.8rem;
+        margin: 2rem;
+        margin-top: -5rem;
+    }
+
+    .btnsPosition {
+        font-size: 1.3rem;
+        padding: 1.3rem;
+        margin: 0.5rem;  
+    }
+
+    #form {
+        width: 70%;
+        margin: 2rem;
+        padding: 3rem;
+    }
+
+    .ticket {
+        width: 75%;
+        height: 15.5rem;
+        margin: 1.8rem;
+    }
+
+    .price {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+
+    .date {
+        font-size: 0.8rem;
+    }
+
+    .grp {
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+
+    .toBook
+    {
+        font-size: 1rem;
+        height: 1.9rem;
+        transition: 0.5s;
+        margin-top: 3rem;
+        width: 55%;
+    }
+
+    .details {
+        margin-top: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .blind .ticket {
+        width: 80%;
+        height: 16.5rem;
+        margin: 1.8rem;
+    }
+
+    .blind .price {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+
+    .blind .date {
+        font-size: 1rem;
+    }
+
+    .blind .grp {
+        font-size: 1.1rem;
+        margin-top: -1rem;
+    }
+
+    .blind .toBook
+    {
+        font-size: 1.3rem;
+        height: 2.2rem;
+        transition: 0.5s;
+        margin-top: 2.5rem;
+        width: 75%;
+    }
+
+    .blind .details {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    .iconsFooter {
+        width: 7.5%;
+    }
+
+    .navFooter a {
+        font-size: 80%;
+        margin: 0.5rem;
+    }
+
+    .activityContainer p {
+        font-size: 1rem;
+    }
+
+    .posters {
+        margin: 2rem;
+    }
+
+    .swiper-slide p {
+        font-size: 1rem;
+        margin: 1rem;
+        margin-top: 1rem;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 54rem;
+        margin-top: -4rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+
+    .blind .logoAcceuil {
+        width: 350px;
+        transition: 0.5s;
+        top: 20%;
+        left: 0;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 2.5rem;
+        padding: 0rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 6%;
+        transition: 0.5s;
+    }
+
+    .blind h1 {
+        font-size: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .h1Accueil {
+        font-size: 2.5rem;
+        transition: 0.5s;
+        left: 75.5%;
+        top: 35%;
+    }
+
+    .blind .btns {
+        top: 60%;
+        left: 50%;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 1.5rem;
+        height: 70px;
+        padding: 1.5rem;
+        transition: 0.5s;
+    }
+ 
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 95%;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 8.5%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 773px) and (max-width: 887px) {
+
+    .headerBackground {
+        height: 700px;
+    }
+
+    .navHeader ul {
+        margin-left: 11rem;
+    }
+
+    .h1Accueil {
+        width: 50%;
+        top: 40%;
+        left: 72%;
+        font-size: 2.5rem;
+    }
+
+    .logoAcceuil {
+        width: 350px;
+        position: absolute;
+        left: 1%;
+        top: 25%;
+    }
+
+    .btns {
+        top: 60%;
+        left: 45%;
+    }
+    
+    .btnCom {
+        font: 400 1.3rem "Kranto", sans-serif;
+        padding: 0.7rem;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.5rem;
+    }
+
+    .navHeader a {
+        font-size: 1.3rem;
+        margin: 0.6rem;
+    }
+
+    #blindbtn {
+        width: 5%;
+        right: 1.9rem;
+    }
+
+    .sidenavOpen {
+        width: 8%;
+        height: 18.5%;
+        top: 19rem;
+    }
+
+    .h1 {
+        font-size: 2.5rem;
+    }
+
+    .blind .title {
+        transition: 0.5s;
+        width: 700px;
+    }
+
+    .title {
+        transition: 0.5s;
+        width: 650px;
+    }
+
+    #form {
+        width: 60%;
+        padding: 3rem;
+        margin: 2rem;
+    }
+
+    .submit {
+        width: 25%;
+    }
+
+    .btnsPosition {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
+    .btnActivity {
+        font-size: 0.8rem;
+        padding: 0.8rem;
+        margin: 3rem;
+        margin-top: -5rem;
+    }
+
+    .iconsFooter {
+        width: 7%;
+    }
+
+    .navFooter a {
+        font-size: 90%;
+        margin: 1rem;
+    }
+
+    .activityContainer p {
+        font-size: 1.3rem;
+        margin: 3rem;
+    }
+
+    .h3 {
+        margin-bottom: -2rem;
+    } 
+
+    .ticket {
+        width: 75%;
+        height: 16.5rem;
+        margin: 1.8rem;
+    }
+
+    .price {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+
+    .date {
+        font-size: 0.8rem;
+    }
+
+    .grp {
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+
+    .toBook
+    {
+        font-size: 1rem;
+        height: 2.2rem;
+        transition: 0.5s;
+        margin-top: 2.5rem;
+        width: 75%;
+    }
+
+    .details {
+        margin-top: 3rem;
+    }
+
+    .blind .ticket {
+        width: 80%;
+        height: 16.5rem;
+        margin: 1.8rem;
+    }
+
+    .blind .price {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+
+    .blind .date {
+        font-size: 1rem;
+    }
+
+    .blind .grp {
+        font-size: 1.3rem;
+        margin-top: -1rem;
+    }
+
+    .blind .toBook
+    {
+        font-size: 1.3rem;
+        height: 2.2rem;
+        transition: 0.5s;
+        margin-top: 2.5rem;
+        width: 75%;
+    }
+
+    .blind .details {
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+
+    .posters {
+        margin: 2rem;
+    }
+
+    .swiper-slide p {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 54rem;
+        margin-top: -4rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+
+    .blind .logoAcceuil {
+        width: 400px;
+        transition: 0.5s;
+        top: 20%;
+        left: -2%;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 8rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 6%;
+        transition: 0.5s;
+    }
+
+    .blind h1 {
+        font-size: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .h1Accueil {
+        font-size: 3rem;
+        transition: 0.5s;
+        left: 72%;
+    }
+
+    .blind .btns {
+        top: 65%;
+        left: 46%;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2rem;
+        height: 70px;
+        padding: 1.7rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 100%;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 8.5%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 886px) and (max-width: 964px) {
+
+    .headerBackground {
+        height: 800px;
+    }
+
+    .navHeader ul {
+        margin-left: 19rem;
+    }
+
+    .h1Accueil {
+        width: 50%;
+        top: 45%;
+        left: 72%;
+        font-size: 2.5rem;
+    }
+
+    .logoAcceuil {
+        width: 400px;
+        position: absolute;
+        left: 3%;
+        top: 30%;
+    }
+
+    .btnCom {
+        font: 400 1.3rem "Kranto", sans-serif;
+        padding: 0.7rem;
+    }
+
+    .btns {
+        display: flex;
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        transition: 0.5s;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.5rem;
+    }
+
+    .img {
+        margin-top: 1rem;
+    }
+
+    .navHeader a {
+        font-size: 1.3rem;
+        margin: 0.6rem;
+    }
+
+    #blindbtn {
+        width: 4.4%;
+        right: 2rem;
+    }
+
+    .sidenavOpen {
+        width: 7.5%;
+        height: 19.5%;
+        top: 19rem;
+    }
+
+    .h1 {
+        font-size: 2.8rem;
+    }
+
+    .btnActivity {
+        margin: 3rem;
+        margin-top: -5rem;
+    }
+
+    .btnsPosition {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
+    .activityContainer p {
+        font-size: 1.3rem;
+        margin: 3rem;
+    }
+
+    .h3 {
+        margin-bottom: -2rem;
+    } 
+
+    .iconsFooter {
+        width: 6.5%;
+    }
+
+    .blind .ticket {
+        width: 80%;
+        height: 19.5rem;
+        margin: 1.8rem;
+    }
+
+    .blind .price {
+        font-size: 4rem;
+        margin-top: 4rem;
+    }
+
+    .blind .grp {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+
+    .blind .toBook
+    {
+        font-size: 1.3rem;
+        height: 2.2rem;
+        transition: 0.5s;
+        margin-top: 1rem;
+        width: 75%;
+    }
+
+    .blind .details {
+        margin-top: 4rem;
+    }
+
+
+    .ticket {
+        width: 75%;
+        height: 16.5rem;
+        margin: 1.8rem;
+    }
+
+    .price {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+    }
+
+    .grp {
+        font-size: 1.2rem;
+        margin-top: -1rem;
+    }
+
+    .date {
+        font-size: 0.9rem;
+        transition: 0.5s;
+    }
+
+    .toBook {
+        font-size: 1rem;
+        height: 2rem;
+        transition: 0.5s;
+        margin-top: 3rem;
+        width: 55%;
+    }
+
+    .details {
+        font: 400 0.8rem "Kranto", sans-serif;
+        margin-top: 4rem;
+    }
+
+    .submit {
+        width: 25%;
+    }
+
+    .activityContainer p {
+        font-size: 1.3rem;
+        margin: 3rem;
+    }
+
+    .h3 {
+        margin-bottom: -2rem;
+    }
+    
+    .swiper-slide p {
+        margin-top: 1.7rem;
+        font-size: 1.1rem;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 54rem;
+        margin-top: -4rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 10rem;
+        transition: 0.5s;
+    }
+
+    .blind .h1Accueil {
+        font-size: 3rem;
+        transition: 0.5s;
+        left: 73.5%;
+        top: 47%;
+        width: 53%;
+    }
+
+    .blind .logoAcceuil {
+        width: 450px;
+        transition: 0.5s;
+        top: 25%;
+        left: -1%;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 5%;
+        transition: 0.5s;
+    }
+    
+    .blind h1 {
+        font-size: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .btns {
+        top: 75%;
+        left: 48%;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2rem;
+        height: 70px;
+        padding: 2.3rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 5%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 963px) and (max-width: 1044px) {
+
+    .swiper-slide p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .illustration {
+        cursor: pointer;
+        width: 60%;
+        transition: 0.5s;
+    }
+
+    .h1Accueil {
+        width: 50%;
+        top: 35%;
+        left: 72%;
+        font-size: 3rem;
+    }
+
+    .logoAcceuil {
+        width: 450px;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+
+    .btns {
+        top: 65%;
+        left: 45%;
+    }
+
+    .activity {
+        margin: 3rem;
+    }
+
+    .btnCom {
+        font: 400 1.3rem "Kranto", sans-serif;
+        padding: 0.7rem;
+    }
+
+    .img {
+        margin-top: 1rem;
+    }
+
+    .toBook1 {
+        margin-top: 0.6rem;
+    }  
+
+    .navHeader ul {
+        margin-left: 21rem;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.5rem;
+    }
+
+    .navHeader a {
+        font-size: 1.3rem;
+        margin: 0.9rem;
+    }
+
+    #blindbtn {
+        width: 4.2%;
+        right: 1.9rem;
+    }
+
+    .btnsPosition {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
+    .iconsFooter {
+        width: 5.5%;
+    }
+
+    .btnActivity {
+        margin: 3rem;
+        margin-top: -5rem;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 57rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+
+    .blind .logoAcceuil {
+        width: 500px;
+        transition: 0.5s;
+        top: 25%;
+        left: -1%;
+    }
+
+    .blind .h1Accueil {
+        font-size: 3.5rem;
+        transition: 0.5s;
+        left: 75%;
+        top: 47%;
+        width: 50%;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 12rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn{
+        width: 5%;
+        transition: 0.5s;
+    }
+    
+    .blind h1 {
+        font-size: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .btns {
+        left: 50%;
+        top: 80%;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2.3rem;
+        height: 70px;
+        padding: 2.3rem;
+        transition: 0.5s;
+    }
+
+    .blind .price {
+        transition: 0.5s;
+        margin-top: 1rem;
+    }
+
+    .blind .details {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    
+    .blind .toBook {
+        margin-top: 1rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 1.rem;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 7%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 1043px) and (max-width: 1123px) {
+
+    .swiper-slide p {
+        margin-top: 1.5rem;
+    }
+
+    .h1Accueil {
+        font-size: 3rem;
+        width: 50%;
+        top: 35%;
+        left: 70%;
+    }
+
+    .logoAcceuil {
+        width: 450px;
+        position: absolute;
+        left: 3%;
+        top: 20%;
+    }
+
+    .btns {
+        top: 65%;
+        left: 45%;
+    }
+
+    .btnCom {
+        font: 400 1.3rem "Kranto", sans-serif;
+    }
+
+    .img {
+        margin-top: 1rem;
+    }
+
+    .navHeader ul {
+        margin-left: 23rem;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.3rem;
+    }
+
+    .activity {
+        margin: 4rem;
+    }
+
+    #blindbtn {
+        width: 4%;
+        right: 1.8rem;
+    }
+
+    .iconsFooter {
+        width: 5%;
+    }
+
+    .btnActivity {
+        margin: 4rem;
+        margin-top: -5rem;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 59rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 20rem;
+        transition: 0.5s;
+    }
+
+    .blind .logoAcceuil {
+        width: 500px;
+        transition: 0.5s;
+        top: 25%;
+        left: 0%;
+    }
+
+    .blind .h1Accueil {
+        font-size: 3.5rem;
+        transition: 0.5s;
+        left: 73%;
+        top: 43%;
+        width: 53%;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 5%;
+        transition: 0.5s;
+    }
+    
+    .blind h1 {
+        font-size: 3.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .btns {
+        left: 45%;
+        transition: 0.5s;
+        top: 75%;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2.5rem;
+        height: 70px;
+        padding: 2.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .details {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+
+    .blind .price {
+        transition: 0.5s;
+        margin-top: 1.5rem;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 1.3rem;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 5.5%;
+        transition: 0.5s;
+    }
+
+    .blind .toBook1 {
+        margin-top: 0.6rem;
+    } 
+}
+
+@media screen and (min-width: 1122px) and (max-width: 1294px) {
+
+    .navHeader ul {
+        margin-left: 32rem;
+        transition: 0.5s;
+    }
+
+    .h1Accueil {
+        top: 40%;
+        left: 70%;
+        width: 55%;
+    }
+
+    .logoAcceuil {
+        width: 500px;
+        top: 20%;
+        left: 0;
+    }
+
+    .btns {
+        top: 70%;
+        left: 45%;
+    }
+
+    .btnCom {
+        font: 400 1.5rem "Kranto", sans-serif;
+    }
+
+    .navHeader ul li {
+        margin-top: 2.2rem;
+    }
+
+    #blindbtn {
+        width: 3.8%;
+        right: 2rem;
+    }
+
+    .sidenavOpen {
+        height: 20%;
+        top: 19.5rem;
+    }
+
+    .iconsFooter {
+        width: 4.5%;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 62rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 23rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+
+    .blind .logoAcceuil {
+        width: 550px;
+        transition: 0.5s;
+        top: 25%;
+        left: -4%;
+    }
+
+    .blind .h1Accueil {
+        font-size: 4.5rem;
+        transition: 0.5s;
+        left: 70%;
+        top: 50%;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 5%;
+        transition: 0.5s;
+    }
+    
+    .blind h1 {
+        font-size: 4rem;
+        transition: 0.5s;
+    }
+
+    .blind .btns {
+        left: 45%;
+        transition: 0.5s;
+        top: 85%;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2.1rem;
+        height: 70px;
+        padding: 2.5rem;
+        transition: 0.5s;
+    }
+
+    .blind .price {
+        transition: 0.5s;
+        margin-top: 1rem;
+    }
+
+    .blind .details {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    
+    .blind .toBook {
+        margin-top: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 5%;
+        transition: 0.5s;
+    }
+
+    .blind .btnActivity {
+        padding: 1rem;
+    }
+
+    .blind .toBook1 {
+        margin-top: 0.6rem;
+    } 
+}
+
+@media screen and (min-width: 1293px) and (max-width: 1392px) {
+
+    .navHeader ul {
+        margin-left: 42rem;
+    }
+
+    .h1Accueil {
+        top: 35%;
+        left: 65%;
+    }
+
+    .logoAcceuil {
+        width: 500px;
+        top: 10%;
+    }
+
+    .btns {
+        top: 63%;
+        left: 40%;
+    }
+
+    #blindbtn {
+        width: 3.3%;
+        right: 2.3rem;
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 67rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 35rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 5%;
+        transition: 0.5s;
+    }
+    
+    .blind .h1Accueil {
+        font-size: 5.3rem;
+        transition: 0.5s;
+        width: 59%;
+        top: 40%;
+        left: 68%;
+    }
+    
+    .blind .logoAcceuil {
+        width: 550px;
+        transition: 0.5s;
+        top: 9%;
+        left: 0;
+    }
+
+    .blind .h1 {
+        font-size: 4rem;
+        transition: 0.5s;
+    }
+
+    .blind .btns {
+        top: 73%;
+        left: 40%;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2.5rem;
+        height: 70px;
+        padding: 2.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .toBook {
+        margin-top: 2rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 5%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 1391px) and (max-width: 1431px) {
+
+    #unity-fullscreen-button {
+        margin-left: 70rem;
+    }
+    
+    .h1Accueil {
+        top: 30%;
+        left: 65%;
+    }
+
+    .logoAcceuil {
+        width: 500px;
+        top: 15%;
+    }
+
+    .btns {
+        top: 63%;
+        left: 40%;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 37rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+
+    .blind .logoAcceuil {
+        width: 500px;
+        transition: 0.5s;
+        top: 20%;
+        left: 1%;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 5%;
+        transition: 0.5s;
+    }
+
+    .blind .btns {
+        top: 73%;
+        left: 40%;
+    }
+
+    .blind .h1Accueil {
+        font-size: 5.3rem;
+        transition: 0.5s;
+        top: 40%;
+        width: 60%;
+        left: 67%;
+    }
+    
+    .blind .h1 {
+        font-size: 5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2.5rem;
+        height: 70px;
+        padding: 2.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .toBook {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 5%;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 1430px) and (max-width: 1500px) {
+
+    .headerBackground {
+        height: 870px;
+    }
+
+    .h1Accueil {
+        top: 40%;
+        left: 65%;
+    }
+
+    .logoAcceuil {
+        width: 500px;
+        top: 20%;
+    }
+
+    .btns {
+        top: 70%;
+        left: 50%
+    }
+
+    #unity-fullscreen-button {
+        margin-left: 71rem;
+    }
+
+    .blind .header {
+        height: 120px;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  ul {
+        margin-left: 39rem;
+        transition: 0.5s;
+    }
+    
+    .blind .navHeader  a {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+    
+    .blind .logoHeader {
+        transition: 0.5s;
+        width: 100px;
+        height: 120px;
+    }
+    
+    .blind #blindbtn {
+        width: 5%;
+        transition: 0.5s;
+    }
+
+    .blind .h1Accueil {
+        font-size: 5.5rem;
+        transition: 0.5s;
+        left: 70%;
+        width: 55%;
+        top: 45%;
+    }
+
+    .blind .logoAcceuil {
+        width: 600px;
+        transition: 0.5s;
+        top: 9%;
+        top: 15%;
+    }
+
+    .blind .btns {
+        top: 85%;
+        left: 45%;
+    }
+    
+    .blind .h1 {
+        font-size: 5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .btnsPosition {
+        font-size: 2.5rem;
+        height: 70px;
+        padding: 2.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind #form {
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+    .blind .formEnter {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .submit {
+        height: 4rem;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+    
+    .blind .footer {
+        height: 190px;
+        transition: 0.5s;
+    }
+    
+    .blind .navFooter a {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    .blind .iconsFooter {
+        width: 5%;
+        transition: 0.5s;
+    }
+}

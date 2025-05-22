@@ -1,0 +1,221 @@
+.blind .header {
+    height: 120px;
+    transition: 0.5s;
+}
+
+.blind .navHeader  ul {
+    margin-left: 51rem;
+    transition: 0.5s;
+}
+
+.blind .illustration {
+    width: 60%;
+}
+
+.blind .navHeader  a {
+    font-size: 1.8rem;
+    transition: 0.5s;
+}
+
+.blind .planning {
+    width: 90%;
+    transition: 0.5s;
+}
+
+.blind .p {
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.blind .title {
+    width: 1100px;
+    transition: 0.5s;
+    margin-bottom: -2rem;
+}
+
+.blind .logoHeader {
+    transition: 0.5s;
+    width: 100px;
+    height: 120px;
+}
+
+.blind #blindbtn {
+    width: 4%;
+    transition: 0.5s;
+}
+
+.blind .h1Accueil {
+    font-size: 5rem;
+    transition: 0.5s;
+}
+
+.blind .logoAcceuil {
+    width: 600px;
+    transition: 0.5s;
+    top: 9%;
+}
+
+.blind .h1 {
+    font-size: 4rem;
+    transition: 0.5s;
+}
+
+.blind .btnsPosition {
+    font-size: 2.3rem;
+    padding: 2.3rem;
+    transition: 0.5s;
+}
+
+.blind .ticket {
+    height: 22rem;
+    width: 85%
+}
+
+.blind .date {
+    font-size: 1.8rem;
+    transition: 0.5s;
+}
+
+.blind .width{
+    width: 60%;
+    transition: 0.5s;
+}
+
+.blind  .grp {
+    font-size: 2.5rem;
+    transition: 0.5s;
+    margin-top: -1rem;
+}
+
+.blind details {
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.blind .price {
+    font-size: 7rem;
+    transition: 0.5s;
+}
+
+.blind .toBook {
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    height: 3.5rem;
+    transition: 0.5s;
+}
+
+.blind .toBooK1 {
+    margin-top: 4.5rem;
+}
+
+.blind .details {
+    font-size: 1.3rem;
+}
+
+.blind #form {
+    width: 50%;
+    transition: 0.5s;
+    height: 30rem;
+}
+
+.blind .formEnter {
+    height: 4rem;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.blind .submit {
+    height: 4rem;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.blind .footer {
+    height: 190px;
+    transition: 0.5s;
+}
+
+.blind .btnCom  {
+    transition: 0.5s;
+    font: 400 2.3rem "Kranto", sans-serif;
+}
+
+.blind .navFooter a {
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.blind .iconsFooter {
+    width: 5%;
+    transition: 0.5s;
+}
+
+.blind .activity {
+    width: 12%;
+    font: 400 2.5rem "Kranto", sans-serif;
+    transition: 0.5s;
+}
+
+.blind .h2 {
+    font-size: 3.5rem;
+    transition: 0.5s;
+}
+
+.blind .imgActivity {
+    width: 25%;
+    margin: 2.5rem;
+    transition: 0.5s;
+}
+
+.blind .btnActivity {
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    transition: 0.5s;
+}
+
+.blind .h3 {
+    font-size: 3rem;
+    transition: 0.5s;
+}
+
+.blind .activityContainer p {
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.blind .gifts {
+    margin: 7rem 2rem 2rem 2rem;
+    width: 25%;
+}
+
+
+.blind .posters {
+    transition: 0.5s;
+    width: 25%;
+}
+
+.blind .swiper {
+    width: 90%;
+    height: 200px;
+    margin-top: 8rem;
+    transition: 0.5s;
+}
+
+.blind .swiper-slide img {
+    width: 140px;
+    height: 90%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    transition: 0.5s;
+}
+
+.blind .swiper-slide h4 {
+    font-size: 2rem;
+    margin: 4rem 1.5rem 1.5rem 1.5rem;
+    transition: 0.5s;
+}
+
+.blind .swiper-slide p {
+    font-size: 1.8rem;
+}

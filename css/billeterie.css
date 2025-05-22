@@ -1,0 +1,130 @@
+.container_ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket {
+    color: var(--white);
+    background-color: var(--darkBlue);
+    border: 3px solid var(--white);
+    border-radius: 30px;
+    height: 20rem;
+    width: 80%;
+    margin-top: 5rem;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+}
+
+.ticket:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.ticketDiv {
+    width: 100%;
+}
+
+.borderR {
+    border-right: 2px solid white;
+    height: 80%;
+    margin-top: 2rem;
+}
+
+.borderL {
+    border-left: 2px solid white;
+    height: 80%;
+    margin-top: 2rem;
+}
+
+.date {
+    font-size: 1.3rem;
+    font-family: var(--kranto);
+    font-weight: 700;
+    color: var(--white);
+    margin: 0.5rem;
+    transition: 0.5s;
+}
+
+.grp {
+    font-size: 1.8rem;
+    font-family: var(--kranto);
+    transition: 0.5s;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 6rem;
+    font-family: var(--kranto);
+    color: var(--white);
+    font-weight: 700;
+    margin: 0.5rem;
+    margin-top: 2.5rem;
+    transition: 0.5s;
+}
+
+.toBook {
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 2.9rem;
+    border: 2px solid var(--transparent);
+    border-radius: 30px;
+    color: var(--white);
+    background-color: var(--blue);
+    transition: 0.5s;
+    margin-top: 1.5rem;
+    width: 50%;
+}
+
+.details {
+    font: 400 1rem "Kranto", sans-serif;
+    margin-top: 3rem;
+}
+
+.toBook:hover {
+    background-color: var(--transparent);
+    border: 2px solid var(--white);
+}
+
+.gamificationContainer {
+    background-color: rgba(255, 255, 255, 0.507);
+    position: fixed;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: -8.3rem;
+    width: 100%;
+    height: 110%;
+    z-index: 1;
+}
+
+.bgBlur {
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+    transition: filter 0.5s;
+}
+
+.gamification {
+    width: 50%;
+    height: 90%;
+    margin: 2rem;
+}
+
+.closeBtn {
+    cursor: pointer;
+    height: 10%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 1%;
+}
+
+.displayNone {
+    display: none;
+}

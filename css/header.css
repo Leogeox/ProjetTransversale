@@ -1,0 +1,119 @@
+.header {
+    display: flex;
+    background-color: var(--darkBlue);
+    height: 100px;
+    transition: 0.5s;
+}
+
+.headerBackground {
+    background-image: url('../img/backgrounds/accueil.png');
+    background-size: cover;
+    display: flex;
+    height: 900px;
+    transition: 0.5s;
+}
+
+.navHeader ul {
+    display: flex;
+    list-style: none;
+    margin-left: 45rem;
+    transition: 0.5s;
+}
+
+.navHeader ul li { 
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.navHeader a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.3rem 0.7rem;
+    font-family: var(--kranto);
+    font-size: 1.5rem;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navHeader a:hover {
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.logoHeader {
+    width: 80px;
+    height: 100px;
+    margin-left: 0.5rem;
+    transition: 0.5s;
+}
+
+.mainAcceuil {
+    display: flex;
+    justify-content: center;
+}
+
+.logoAcceuil {
+    width: 550px;
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    transition: 0.5s;
+}
+
+.h1Accueil {
+    font-family: var(--kranto);
+    font-size: 4rem;
+    color: var(--white);
+    transition: 0.5s;
+    position: absolute;
+    width: 50%;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.btns {
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transition: 0.5s;
+}
+
+.btnsPosition {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-family: var(--kranto);
+    text-decoration: none;
+    font-size: 1.8rem;
+    height: 50px;
+    padding: 2.2rem;
+    margin: 1.3rem;
+    transition: 0.5s;
+}
+
+.btnsPosition:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--white);
+    border: 2px solid var(--transparent);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn2 {
+    cursor: pointer;
+    background-color: var(--transparent);
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    transition: 0.5s;
+}

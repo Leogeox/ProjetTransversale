@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="L'inclusivité n'est pas une tendance, c'est une nécessité. Chez Symbiose, nous construisons des ponts durables entre les talents, les idées et les cultures..">
+    <title>Spot the bias</title>
+    <link rel="shortcut icon" href="TemplateData/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/TemplateData/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qvb2qro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" type="image/x-icon" href="img/icons/favIcon.png">
+  </head>
+
+  <body id="body">
+    <header class="header">   
+      <a href="accueil.html"><img class="logoHeader" src="img/icons/logo1.png" alt=""></a>
+      
+      <nav class="navHeader">
+          <ul>
+                <li>
+                    <a href="accueil.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="billeterie.html">Billetterie</a>
+                </li>
+                <li>
+                    <a href="activite.html">Activités </a>
+                </li>
+                <li>
+                    <a href="contacts.html">Contacts</a>
+                </li>
+            </ul>
+      </nav>
+    </header>
+
+      <main>
+        <img class="blind" id="blindbtn" src="img/icons/agrandir.png" alt="">
+        
+        <section class="activityContainer">
+          <div class="active">
+              
+            <section class="titleContainer">
+                <img class="title" src="img/title/spot_the_bias.png" alt="">
+              </section>
+
+              <div>
+                  <img class="imgActivity" src="img/activites/jv/egalite.png" alt="">
+              </div>
+              <div>
+                  <a class="btnActivity btn1" href="zip/Spot The Bias.zip">Jouez y mainteant!</a>
+              </div>
+
+              <section>
+                <h3 class="h3">Règles du jeu</h3>
+                <br>
+                <p>
+                  <strong>Type :</strong> Jeu vidéo d’observation et serious game<br>
+                  <strong>Thématique :</strong> Sensibilisation aux inégalités de genre en milieu festif
+                </p>
+
+                <h3 class="h3">Intention</h3>
+                <p>
+                  Avec <em>Spot the Bias</em>, nous souhaitons créer un jeu vidéo pédagogique pour sensibiliser les joueurs aux inégalités de genre pouvant survenir dans les festivals.  
+                  Notre approche vise à confronter les joueurs à des situations réalistes, parfois subtiles, afin de développer leur sens de l’observation, leur empathie et leur capacité à réagir.
+                </p>
+
+                <h3 class="h3">Concept du jeu</h3>
+                <p>
+                  Le joueur est plongé dans une scène de festival animée. Pendant quelques minutes, il doit observer attentivement ce qui se passe autour de lui et repérer tous les signes d’inégalités de genre, de comportements sexistes ou de situations problématiques.  
+                  À la fin de la partie, chaque situation repérée est expliquée, accompagnée de la bonne manière de réagir.
+                </p>
+
+                <h3 class="h3">Comment y jouer ?</h3>
+                <p>
+                  Utilisez le <strong>clic droit</strong> pour signaler une situation, le <strong>clic gauche</strong> pour déplacer la caméra, et la <strong>molette</strong> pour zoomer ou dézoomer.
+                </p>
+
+                <h3 class="h3">Objectifs du projet</h3>
+                <p>
+                  – Prendre conscience des discriminations de genre en milieu festif, souvent invisibles.<br>
+                  – Apprendre à identifier des situations problématiques, même subtiles.<br>
+                  – Développer un réflexe d’intervention dans le respect des personnes concernées.
+                </p>
+
+                <h3 class="h3">Public visé</h3>
+                <p>
+                  Principalement les jeunes adultes et festivaliers, mais aussi les organisateurs d’événements et les associations souhaitant utiliser ce support dans un cadre de formation ou de sensibilisation.
+                </p>
+
+                <p>
+                  <strong><em>Spot the Bias</em></strong> est un jeu vidéo pédagogique qui sensibilise aux inégalités de genre.  
+                  En rendant visible l’invisible, en proposant des outils pour agir et en développant l’attention aux autres, nous espérons que ce projet contribuera à rendre les festivals plus sûrs, inclusifs et respectueux pour toutes et tous.
+                </p>
+
+              </section>
+
+              <h3 class="h3">Le Jeu</h3>
+              <div id="unity-container" class="unity-desktop">
+                <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
+                <div id="unity-loading-bar">
+                  <div id="unity-logo"></div>
+                  <div id="unity-progress-bar-empty">
+                    <div id="unity-progress-bar-full"></div>
+                  </div>
+                </div>
+                <div id="unity-warning"> </div>
+                <div id="unity-footer">
+                  <div id="unity-logo-title-footer"></div>
+                  <div id="unity-fullscreen-button"></div>
+                  <div id="unity-build-title">Spot the bias</div>
+                </div>
+              </div>
+              <script>
+                var canvas = document.querySelector("#unity-canvas");
+
+                // Shows a temporary message banner/ribbon for a few seconds, or
+                // a permanent error message on top of the canvas if type=='error'.
+                // If type=='warning', a yellow highlight color is used.
+                // Modify or remove this function to customize the visually presented
+                // way that non-critical warnings and error messages are presented to the
+                // user.
+                function unityShowBanner(msg, type) {
+                  var warningBanner = document.querySelector("#unity-warning");
+                  function updateBannerVisibility() {
+                    warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+                  }
+                  var div = document.createElement('div');
+                  div.innerHTML = msg;
+                  warningBanner.appendChild(div);
+                  if (type == 'error') div.style = 'background: red; padding: 10px;';
+                  else {
+                    if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+                    setTimeout(function() {
+                      warningBanner.removeChild(div);
+                      updateBannerVisibility();
+                    }, 5000);
+                  }
+                  updateBannerVisibility();
+                }
+
+                var buildUrl = "Build";
+                var loaderUrl = buildUrl + "/Build/MyGame.loader.js";
+                var config = {
+                  arguments: [],
+                  dataUrl: buildUrl + "/Build/MyGame.data",
+                  frameworkUrl: buildUrl + "/Build/MyGame.framework.js",
+                  codeUrl: buildUrl + "/Build/MyGame.wasm",
+                  streamingAssetsUrl: "StreamingAssets",
+                  companyName: "DefaultCompany",
+                  productName: "Spot the bias",
+                  productVersion: "1.0",
+                  showBanner: unityShowBanner,
+                };
+
+                // By default, Unity keeps WebGL canvas render target size matched with
+                // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+                // Set this to false if you want to decouple this synchronization from
+                // happening inside the engine, and you would instead like to size up
+                // the canvas DOM size and WebGL render target sizes yourself.
+                // config.matchWebGLToCanvasSize = false;
+
+                // If you would like all file writes inside Unity Application.persistentDataPath
+                // directory to automatically persist so that the contents are remembered when
+                // the user revisits the site the next time, uncomment the following line:
+                // config.autoSyncPersistentDataPath = true;
+                // This autosyncing is currently not the default behavior to avoid regressing
+                // existing user projects that might rely on the earlier manual
+                // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+                // expected to change.
+
+                if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+                  // Mobile device style: fill the whole browser client area with the game canvas:
+
+                  var meta = document.createElement('meta');
+                  meta.name = 'viewport';
+                  meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+                  document.getElementsByTagName('head')[0].appendChild(meta);
+                  document.querySelector("#unity-container").className = "unity-mobile";
+                  canvas.className = "unity-mobile";
+
+                  // To lower canvas resolution on mobile devices to gain some
+                  // performance, uncomment the following line:
+                  // config.devicePixelRatio = 1;
+
+
+                } else {
+                  // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+                  canvas.style.width = "960px";
+                  canvas.style.height = "540px";
+                }
+
+                document.querySelector("#unity-loading-bar").style.display = "block";
+
+                var script = document.createElement("script");
+                script.src = loaderUrl;
+                script.onload = () => {
+                  createUnityInstance(canvas, config, (progress) => {
+                    document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
+                        }).then((unityInstance) => {
+                          document.querySelector("#unity-loading-bar").style.display = "none";
+                          document.querySelector("#unity-fullscreen-button").onclick = () => {
+                            unityInstance.SetFullscreen(1);
+                          };
+
+                        }).catch((message) => {
+                          alert(message);
+                        });
+                      };
+
+                document.body.appendChild(script);
+
+              </script>
+
+                <h3 class="h4">Vos Commentaires</h3>
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="coms">
+                          <img src="img/icons/profil.jpg" alt="">
+                          <h4>Thomas</h4>
+                          <p> Très sympa comme jeu ! J’ai trouvé ça original, surtout que nous connaissons tous les problèmes de sexisme dans les festivals… Devoir débusquer les comportements inappropriés était donc très pertinent !</p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="coms">
+                          <img src="img/icons/profil.jpg" alt="">
+                          <h4>Sylvie</h4>
+                          <p>Jeu très intéressant. Je me suis rendu compte que le festival n’était pas tout rose pour tout le monde. À présent, je resterai plus vigilante. Merci pour ce jeu. Prenez soin de vous et des autres !</p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="coms">
+                          <img src="img/icons/profil.jpg" alt="">
+                          <h4>Kassia</h4>
+                          <p>Jeu ludique, avec une bonne idée. Le jeu retranscrit bien l'ambiance du festival. Je le conseille !!</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+          <div class="socials">
+            <img class="iconsFooter" src="img/icons/instagram.png" alt="">
+            <img class="iconsFooter" src="img/icons/tiktok.png" alt="">
+            <img class="iconsFooter" src="img/icons/youtube.png" alt="">
+            <img class="iconsFooter" src="img/icons/internet.png" alt="">
+            <img class="iconsFooter" src="img/icons/gmail.png" alt="">
+          </div>
+          <nav class="navFooter">
+              <ul>
+                <li>
+                    <a href="#">Accord de licence</a>
+                </li>
+                <li>
+                    <a href="">Publicités ciblées</a>
+                </li>
+                <li>
+                    <a href="#">@Symbiose2025</a>
+                </li>
+                <li>
+                    <a href="#">Mentions légales</a>
+                </li>
+                <li>
+                    <a href="#">Politique de Cookies</a>
+                </li>
+            </ul>
+          </nav>
+      </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         direction: "vertical",
+         slidesPerView: 1,
+         spaceBetween: 30,
+         mousewheel: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+       });
+     </script>
+      <script src="js/accueil.js"></script>
+  </body>
+</html>
