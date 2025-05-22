@@ -4,6 +4,42 @@
         height: 280px;
     }
 
+    .comP {
+        margin: 3rem;
+        font: 400 0.7rem "Kranto", sans-serif;
+        margin-top: -3rem;
+    }
+
+    .comTitle {
+        font: 0.5rem "FatFace", sans-serif;
+        margin-top: -1.5rem;
+    }
+
+    .eurockeene {
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
+        margin-left: -8rem;
+    }
+
+    .blind .eurockeene {
+        width: 60px;
+        height: 60px;
+    }
+
+    .comTitle {
+        margin: 0rem;
+        font: 400 0.8rem "FatFace", sans-serif;
+    }
+
+    .blind .comP {
+        font-size: 0.9rem;
+    }
+
+    .blind .comTitle {
+        font: 400 1rem "FatFace", sans-serif;
+    }
+
     .imgActivity {
         width: 26%;
         margin: 1rem;
@@ -391,6 +427,43 @@
         width: 330px;
     }
 
+    .comP {
+        margin: 3rem;
+        font: 400 0.7rem "Kranto", sans-serif;
+        margin-top: -3rem;
+    }
+
+    .comTitle {
+        font: 0.5rem "FatFace", sans-serif;
+        margin-top: -1.5rem;
+    }
+
+    .eurockeene {
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
+        margin-left: -8rem;
+    }
+
+    .blind .eurockeene {
+        width: 60px;
+        height: 60px;
+    }
+
+    .comTitle {
+        margin: 0rem;
+        font: 400 0.8rem "FatFace", sans-serif;
+    }
+
+    .blind .comP {
+        font-size: 0.9rem;
+    }
+
+    .blind .comTitle {
+        margin: 1rem;
+        font: 400 1rem "FatFace", sans-serif;
+    }
+
     .title {
         transition: 0.5s;
         width: 250px;
@@ -744,6 +817,35 @@
         height: 550px;
     }
 
+    .comP {
+        margin: 5rem;
+        font: 400 1rem "Kranto", sans-serif;
+    }
+
+    .comTitle {
+        margin: 0rem;
+        font: 400 1rem "FatFace", sans-serif;
+    }
+
+    .blind .comP {
+        font-size: 1.2rem;
+    }
+
+    .blind .comTitle {
+        font: 400 1.2rem "FatFace", sans-serif;
+    }
+
+    .blind .eurockeene {
+        width: 350px;
+        height: 150px;
+    }
+
+    .eurockeene {
+        width: 300px;
+        height: 100px;
+        margin-left: -8rem;
+    }
+
     .blind .title {
         transition: 0.5s;
         width: 450px;
@@ -1067,6 +1169,27 @@
         height: 650px;
     }
 
+    .comTitle {
+        margin: 1rem;
+        font: 400 1.5rem "FatFace", sans-serif;
+        margin-top: -1rem;
+    }
+
+    .eurockeene {
+        width: 300px;
+        height: 100px;
+    }
+
+    .blind .comTitle {
+        margin: 1.3rem;
+        font: 400 1.5rem "FatFace", sans-serif;
+    }
+
+    .blind .eurockeene {
+        width: 350px;
+        height: 150px;
+    }
+
     .illustration {
         cursor: pointer;
         width: 70%;
@@ -1356,6 +1479,26 @@
         height: 700px;
     }
 
+    .comTitle {
+        margin: 1rem;
+        font: 400 1.5rem "FatFace", sans-serif;
+    }
+
+    .eurockeene {
+        width: 300px;
+        height: 100px;
+    }
+
+    .blind .comTitle {
+        margin: 1.3rem;
+        font: 400 1.5rem "FatFace", sans-serif;
+    }
+
+    .blind .eurockeene {
+        width: 350px;
+        height: 150px;
+    }
+
     .navHeader ul {
         margin-left: 11rem;
     }
@@ -1633,6 +1776,26 @@
 
     .headerBackground {
         height: 800px;
+    }
+
+    .comTitle {
+        margin: 1rem;
+        font: 400 1.5rem "FatFace", sans-serif;
+    }
+
+    .eurockeene {
+        width: 300px;
+        height: 100px;
+    }
+
+    .blind .comTitle {
+        margin: 1.3rem;
+        font: 400 1.5rem "FatFace", sans-serif;
+    }
+
+    .blind .eurockeene {
+        width: 350px;
+        height: 150px;
     }
 
     .navHeader ul {

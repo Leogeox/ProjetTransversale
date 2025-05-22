@@ -12,6 +12,22 @@
     width: 60%;
 }
 
+.blind .eurockeene {
+    width: 450px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.blind .comTitle {
+    margin: 1rem;
+    transition: 0.5s;
+}
+
+.blind .comP {
+    font: 400 2.3rem "Kranto", sans-serif;
+    transition: 0.5s;
+}
+
 .blind .navHeader  a {
     font-size: 1.8rem;
     transition: 0.5s;
